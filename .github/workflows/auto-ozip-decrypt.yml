@@ -44,5 +44,4 @@ jobs:
        - name: Upload Decrypted Zip
          run: |
               touch links.txt
-              FILE=`grep ".zip" -rns .`
-              curl https://bashupload.com/"$FILE" --data-binary @"$FILE"
+              curl https://bashupload.com/CPH1861EX_11_OTA_0500_all_fLuS0Ipoe93t.zip --data-binary @CPH1861EX_11_OTA_0500_all_fLuS0Ipoe93t.zip
